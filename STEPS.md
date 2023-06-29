@@ -174,38 +174,12 @@ https://support.google.com/programmable-search/answer/11082370?hl=es&ref_topic=4
 
 
 
-# Error nextPage
+# Error limit page
 
 https://support.google.com/programmable-search/search?q=nextPage&sjid=2640559347017418319-SA
 
 ```
-Cuando realiza una consulta, (esto se cuenta para sus 100 consultas gratuitas) se entregan 10 resultados (de forma predeterminada). Ahora, cuando hace clic en el enlace Siguiente, se realiza una consulta posterior que ofrece más de 10 resultados. La consulta posterior se tomará como consulta que se agrega a sus 100 libres y no a los 10 resultados.
-```
-
-
-```
-Por favor, ¿cómo puedo aumentar la cantidad de páginas que me producen los resultados de búsqueda de la búsqueda programable de 10 páginas a tantas como sea posible? Digamos que se supone que deben mostrarse 675 páginas de mi búsqueda, pero solo aparecen 10 páginas. ¿Cómo cambio eso para poder seguir saltando a la página siguiente hasta que llegue a la última página, la página 675?
-Gracias por tu ayuda
-Detalles
-Resultados de la búsqueda
-bloqueado
-Esta pregunta está bloqueada y la respuesta ha sido deshabilitada.
-
-tengo la misma pregunta (0)
-
-Suscribir
-Es posible que el contenido de la comunidad no esté verificado o actualizado. Más información
-Todas las respuestas
-D
-Deepak
-Administrador de la comunidad
-4 de abril de 2021
-
-Hola,
-
 El motor de búsqueda programable solo servirá 10 páginas (100 resultados). Solo puede recuperar 100 resultados para una consulta.
-
-Gracias
 ```
 
 
@@ -216,6 +190,6 @@ https://www.google.com/search?rlz=1C1UEAD_esAR998AR998&sxsrf=APwXEddvy062FATZtqR
 https://www.google.com/search?rlz=1C1UEAD_esAR998AR998&sxsrf=APwXEddvy062FATZtqRUFYx0DM-gin13_g:1688048468699&q=alf&tbm=isch&sa=X&ved=2ahUKEwiHm9zK1uj_AhXvq5UCHVP3D68Q0pQJegQIDRAB&biw=1280&bih=577&dpr=1.5
 
 
-como hacer para usar el search de google para desarrolladores y que muestre solo 10 img y luego las siguientes 10
+usar params start para el search de google para desarrolladores y que muestre solo 10 img y luego las siguientes 10
 
 const url = `https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=${searchEngineId}&q=${query}&searchType=image&start=${startIndex}&num=${numImages}`;
